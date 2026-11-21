@@ -1,258 +1,134 @@
-AKHIL. ☰
-WorkServicesAboutLet's talk ↗
-OPEN TO REMOTE PROJECTS
-PYTHON BACKEND · FULL-STACK DEVELOPMENT
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d16">
+  <meta name="description" content="Akhil Chelat — Python Backend and Full-Stack Developer. Building APIs, backend systems and digital products.">
+  <title>Akhil Chelat | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Akhil Chelat home">AKHIL<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#work">Work</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact" class="nav-cta">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
 
-Building useful
-products with solid
-backend foundations.
-I'm Akhil Chelat, a developer focused on Python, FastAPI and PostgreSQL. I build backend systems and connect them to practical web and mobile experiences.
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <div class="availability"><i></i> OPEN TO REMOTE PROJECTS</div>
+        <p class="eyebrow">PYTHON BACKEND · FULL-STACK DEVELOPMENT</p>
+        <h1>Building useful<br>products with <em>solid</em><br>backend foundations.</h1>
+        <p class="hero-lede">I'm Akhil Chelat, a developer focused on Python, FastAPI and PostgreSQL. I build backend systems and connect them to practical web and mobile experiences.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore my work <span>↘</span></a>
+          <a class="button button-quiet" href="#contact">Get in touch <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span>BASED IN INDIA</span><span class="meta-dot">·</span><span>REMOTE COLLABORATION</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+        <div class="code-window">
+          <div class="window-top"><div><b></b><b></b><b></b></div><span>api.py</span><span class="window-lock">● LOCAL PREVIEW</span></div>
+          <div class="code-content">
+            <p><span class="ln">01</span><span class="purple">from</span> fastapi <span class="purple">import</span> FastAPI</p>
+            <p><span class="ln">02</span></p>
+            <p><span class="ln">03</span>app = FastAPI()</p>
+            <p><span class="ln">04</span></p>
+            <p><span class="ln">05</span><span class="gold">@app.get</span>(<span class="green">"/api/projects"</span>)</p>
+            <p><span class="ln">06</span><span class="purple">async def</span> <span class="blue">get_projects</span>():</p>
+            <p><span class="ln">07</span>  <span class="purple">return</span> {</p>
+            <p><span class="ln">08</span>    <span class="green">"built_with"</span>: [</p>
+            <p><span class="ln">09</span>      <span class="green">"Python"</span>, <span class="green">"FastAPI"</span>,</p>
+            <p><span class="ln">10</span>      <span class="green">"PostgreSQL"</span></p>
+            <p><span class="ln">11</span>    ]</p>
+            <p><span class="ln">12</span>  }</p>
+          </div>
+          <div class="window-bottom"><span><i></i> SYSTEMS THINKING</span><span>BUILD · TEST · IMPROVE</span></div>
+        </div>
+        <div class="floating-chip chip-top"><span class="chip-icon">⌘</span><span>API DEVELOPMENT<small>FastAPI · REST</small></span></div>
+        <div class="floating-chip chip-bottom"><span class="chip-icon chip-green">▦</span><span>DATA LAYER<small>PostgreSQL · SQLAlchemy</small></span></div>
+      </div>
+    </section>
 
-Explore my work ↘ Get in touch ↗
-BASED IN INDIA·REMOTE COLLABORATION
-api.py● LOCAL PREVIEW
-01from fastapi import FastAPI
+    <section class="stack-strip">
+      <span>CORE TOOLKIT</span><b>PYTHON</b><b>FASTAPI</b><b>POSTGRESQL</b><b>SQLALCHEMY</b><b>DOCKER</b><b>REACT NATIVE</b>
+    </section>
 
-02
+    <section class="section work-section" id="work">
+      <div class="section-heading">
+        <div><p class="eyebrow">SELECTED WORK</p><h2>Projects built to<br><em>solve real problems.</em></h2></div>
+        <p class="section-intro">A look at the applications and backend systems I've been building. More projects and technical breakdowns will be added as they evolve.</p>
+      </div>
+      <article class="project-card">
+        <div class="project-topline"><span class="project-number">01 / FEATURED PROJECT</span><span class="project-status"><i></i> DEVELOPED PROJECT</span></div>
+        <div class="project-copy">
+          <div><h3>FleetSet<span>↗</span></h3><p class="project-subtitle">Fleet Management Platform</p></div>
+          <p class="project-description">A multi-module fleet management application designed to bring vehicles, drivers, trips and operational records into one system. Built with a Python API backend and a React Native / Expo mobile application.</p>
+        </div>
+        <div class="project-gallery">
+          <figure class="gallery-main"><img src="assets/fleetset-dashboard.png" alt="FleetSet dashboard screenshot"><figcaption>01 — Operations dashboard</figcaption></figure>
+          <figure><img src="assets/fleetset-vehicles.png" alt="FleetSet vehicle management screenshot"><figcaption>02 — Vehicle management</figcaption></figure>
+          <figure><img src="assets/fleetset-trips.png" alt="FleetSet trip management screenshot"><figcaption>03 — Trip workflows</figcaption></figure>
+          <figure><img src="assets/fleetset-maintenance.png" alt="FleetSet maintenance screenshot"><figcaption>04 — Maintenance records</figcaption></figure>
+          <figure><img src="assets/fleetset-documents.png" alt="FleetSet vehicle documents screenshot"><figcaption>05 — Vehicle documents</figcaption></figure>
+          <figure><img src="assets/fleetset-reports.png" alt="FleetSet reports screenshot"><figcaption>06 — Reports overview</figcaption></figure>
+        </div>
+        <div class="project-details">
+          <div><span class="detail-label">WHAT IT INCLUDES</span><p>Company and branch management · Drivers and vehicles · Assignments · Trips and destinations · Fuel logs · Maintenance · Vehicle documents · Notifications</p></div>
+          <div><span class="detail-label">TECHNOLOGIES</span><div class="tags"><span>Python</span><span>FastAPI</span><span>PostgreSQL</span><span>SQLAlchemy</span><span>React Native</span><span>Expo</span><span>Docker</span></div></div>
+        </div>
+        <div class="project-footer"><span>Backend source code available for acquisition — enquire for details.</span><a href="#contact">Discuss this project ↗</a></div>
+      </article>
+      <div class="more-work">
+        <div><span class="project-number">02 / BACKEND PROJECT</span><h3>Employee Payroll API</h3><p>Backend project focused on employee payroll workflows, JWT authentication and role-based access for different user types.</p><div class="tags"><span>Python</span><span>FastAPI</span><span>PostgreSQL</span><span>JWT</span></div></div>
+        <div class="more-mark">API<span>02</span></div>
+      </div>
+      <p class="small-note">Project descriptions reflect implemented work; detailed demos and additional technical materials can be shared on request.</p>
+    </section>
 
-03app = FastAPI()
+    <section class="services-section" id="services">
+      <div class="section section-inner">
+        <div class="section-heading">
+          <div><p class="eyebrow">HOW I CAN HELP</p><h2>Development services<br><em>built around your needs.</em></h2></div>
+          <p class="section-intro">Focused development support for teams and founders who need help building, improving or connecting software systems.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card"><span class="service-index">01</span><div class="service-symbol">⌘</div><h3>Backend & API Development</h3><p>REST API development, FastAPI services, application logic and maintainable backend foundations.</p><span class="service-state active-state">AVAILABLE</span></article>
+          <article class="service-card"><span class="service-index">02</span><div class="service-symbol">▤</div><h3>Database Development</h3><p>PostgreSQL schema design, SQLAlchemy models, relationships, queries and data workflows.</p><span class="service-state active-state">AVAILABLE</span></article>
+          <article class="service-card"><span class="service-index">03</span><div class="service-symbol">⌁</div><h3>Debugging & API Integration</h3><p>Investigating backend issues, fixing API bugs and integrating third-party services.</p><span class="service-state active-state">AVAILABLE</span></article>
+          <article class="service-card upcoming"><span class="service-index">04</span><div class="service-symbol">▣</div><h3>Full-Stack Applications</h3><p>Building connected application experiences across backend services and mobile or web interfaces.</p><span class="service-state">EXPANDING SERVICE</span></article>
+          <article class="service-card upcoming"><span class="service-index">05</span><div class="service-symbol">◈</div><h3>Mobile Application Development</h3><p>React Native and Expo application development, API integration and feature implementation.</p><span class="service-state">EXPANDING SERVICE</span></article>
+          <article class="service-card upcoming"><span class="service-index">06</span><div class="service-symbol">☁</div><h3>Deployment & Cloud Setup</h3><p>Deployment workflows and cloud infrastructure support as my cloud engineering services expand.</p><span class="service-state">IN DEVELOPMENT</span></article>
+        </div>
+      </div>
+    </section>
 
-04
+    <section class="section about-section" id="about">
+      <div class="about-left"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Curious by nature.<br><em>Builder by choice.</em></h2></div>
+      <div class="about-right"><p>I'm Akhil Chelat, a developer focused on Python backend engineering and full-stack application development. I enjoy turning requirements into structured APIs, reliable data models and useful product features.</p><p>My work so far has involved building with FastAPI, PostgreSQL and SQLAlchemy, implementing authentication and access control, and integrating APIs with a React Native / Expo application.</p><div class="about-facts"><div><strong>01</strong><span>Backend-first<br>engineering</span></div><div><strong>02</strong><span>Practical<br>project experience</span></div><div><strong>03</strong><span>Always<br>learning</span></div></div></div>
+    </section>
 
-05@app.get("/api/projects")
-
-06async def get_projects():
-
-07 return {
-
-08 "built_with": [
-
-09 "Python", "FastAPI",
-
-10 "PostgreSQL"
-
-11 ]
-
-12 }
-
-SYSTEMS THINKINGBUILD · TEST · IMPROVE
-⌘API DEVELOPMENTFastAPI · REST
-▦DATA LAYERPostgreSQL · SQLAlchemy
-CORE TOOLKITPYTHONFASTAPIPOSTGRESQLSQLALCHEMYDOCKERREACT NATIVE
-SELECTED WORK
-
-Projects built to
-solve real problems.
-A look at the applications and backend systems I've been building. More projects and technical breakdowns will be added as they evolve.
-
-01 / FEATURED PROJECT DEVELOPED PROJECT
-FleetSet↗
-Fleet Management Platform
-
-A multi-module fleet management application designed to bring vehicles, drivers, trips and operational records into one system. Built with a Python API backend and a React Native / Expo mobile application.
-
-FleetSet dashboard screenshot
-01 — Operations dashboard
-FleetSet vehicle management screenshot
-02 — Vehicle management
-FleetSet trip management screenshot
-03 — Trip workflows
-FleetSet maintenance screenshot
-04 — Maintenance records
-FleetSet vehicle documents screenshot
-05 — Vehicle documents
-FleetSet reports screenshot
-06 — Reports overview
-WHAT IT INCLUDES
-Company and branch management · Drivers and vehicles · Assignments · Trips and destinations · Fuel logs · Maintenance · Vehicle documents · Notifications
-
-TECHNOLOGIES
-PythonFastAPIPostgreSQLSQLAlchemyReact NativeExpoDocker
-MOBILE APPLICATION
-
-FleetSet Mobile App
-Selected screens from the React Native / Expo application, covering the operational dashboards and fleet workflows.
-
-FleetSet mobile app screenshot 1
-Mobile screen 01
-FleetSet mobile app screenshot 2
-Mobile screen 02
-FleetSet mobile app screenshot 3
-Mobile screen 03
-FleetSet mobile app screenshot 4
-Mobile screen 04
-FleetSet mobile app screenshot 5
-Mobile screen 05
-FleetSet mobile app screenshot 6
-Mobile screen 06
-FleetSet mobile app screenshot 7
-Mobile screen 07
-FleetSet mobile app screenshot 8
-Mobile screen 08
-FleetSet mobile app screenshot 9
-Mobile screen 09
-FleetSet mobile app screenshot 10
-Mobile screen 10
-FleetSet mobile app screenshot 11
-Mobile screen 11
-FleetSet mobile app screenshot 12
-Mobile screen 12
-FleetSet mobile app screenshot 13
-Mobile screen 13
-FleetSet mobile app screenshot 14
-Mobile screen 14
-FleetSet mobile app screenshot 15
-Mobile screen 15
-FleetSet mobile app screenshot 16
-Mobile screen 16
-FleetSet mobile app screenshot 17
-Mobile screen 17
-FleetSet mobile app screenshot 18
-Mobile screen 18
-FleetSet mobile app screenshot 19
-Mobile screen 19
-FleetSet mobile app screenshot 20
-Mobile screen 20
-FleetSet mobile app screenshot 21
-Mobile screen 21
-FleetSet mobile app screenshot 22
-Mobile screen 22
-FleetSet mobile app screenshot 23
-Mobile screen 23
-FleetSet mobile app screenshot 24
-Mobile screen 24
-FleetSet mobile app screenshot 25
-Mobile screen 25
-FleetSet mobile app screenshot 26
-Mobile screen 26
-FleetSet mobile app screenshot 27
-Mobile screen 27
-FleetSet mobile app screenshot 28
-Mobile screen 28
-FleetSet mobile app screenshot 29
-Mobile screen 29
-FleetSet mobile app screenshot 30
-Mobile screen 30
-FleetSet mobile app screenshot 31
-Mobile screen 31
-FleetSet mobile app screenshot 32
-Mobile screen 32
-FleetSet mobile app screenshot 33
-Mobile screen 33
-FleetSet mobile app screenshot 34
-Mobile screen 34
-FleetSet mobile app screenshot 35
-Mobile screen 35
-FleetSet mobile app screenshot 36
-Mobile screen 36
-FleetSet mobile app screenshot 37
-Mobile screen 37
-FleetSet mobile app screenshot 38
-Mobile screen 38
-FleetSet mobile app screenshot 39
-Mobile screen 39
-FleetSet mobile app screenshot 40
-Mobile screen 40
-FleetSet mobile app screenshot 41
-Mobile screen 41
-BACKEND API DOCUMENTATION
-
-FleetSet Backend — Swagger / OpenAPI
-API documentation and endpoint views from the FastAPI backend, presented as a technical walkthrough.
-
-FleetSet Swagger API screenshot 1
-API documentation 01
-FleetSet Swagger API screenshot 2
-API documentation 02
-FleetSet Swagger API screenshot 3
-API documentation 03
-FleetSet Swagger API screenshot 4
-API documentation 04
-FleetSet Swagger API screenshot 5
-API documentation 05
-FleetSet Swagger API screenshot 6
-API documentation 06
-FleetSet Swagger API screenshot 7
-API documentation 07
-FleetSet Swagger API screenshot 8
-API documentation 08
-FleetSet Swagger API screenshot 9
-API documentation 09
-FleetSet Swagger API screenshot 10
-API documentation 10
-FleetSet Swagger API screenshot 11
-API documentation 11
-Backend source code available for acquisition — enquire for details.Discuss this project ↗
-02 / BACKEND PROJECT
-Employee Payroll API
-Backend project focused on employee payroll workflows, JWT authentication and role-based access for different user types.
-
-PythonFastAPIPostgreSQLJWT
-API02
-Project descriptions reflect implemented work; detailed demos and additional technical materials can be shared on request.
-
-HOW I CAN HELP
-
-Development services
-built around your needs.
-Focused development support for teams and founders who need help building, improving or connecting software systems.
-
-01
-⌘
-Backend & API Development
-REST API development, FastAPI services, application logic and maintainable backend foundations.
-
-AVAILABLE
-02
-▤
-Database Development
-PostgreSQL schema design, SQLAlchemy models, relationships, queries and data workflows.
-
-AVAILABLE
-03
-⌁
-Debugging & API Integration
-Investigating backend issues, fixing API bugs and integrating third-party services.
-
-AVAILABLE
-04
-▣
-Full-Stack Applications
-Building connected application experiences across backend services and mobile or web interfaces.
-
-EXPANDING SERVICE
-05
-◈
-Mobile Application Development
-React Native and Expo application development, API integration and feature implementation.
-
-EXPANDING SERVICE
-06
-☁
-Deployment & Cloud Setup
-Deployment workflows and cloud infrastructure support as my cloud engineering services expand.
-
-IN DEVELOPMENT
-A LITTLE ABOUT ME
-
-Curious by nature.
-Builder by choice.
-I'm Akhil Chelat, a developer focused on Python backend engineering and full-stack application development. I enjoy turning requirements into structured APIs, reliable data models and useful product features.
-
-My work so far has involved building with FastAPI, PostgreSQL and SQLAlchemy, implementing authentication and access control, and integrating APIs with a React Native / Expo application.
-
-01Backend-first
-engineering
-02Practical
-project experience
-03Always
-learning
-HAVE A PROJECT IN MIND?
-
-Let's build something
-that works.
-Have a backend requirement, an application idea or a project to discuss? I'd be glad to hear about it.
-
-Start a conversation ↗
-LinkedIn ↗GitHub ↗India · Available remotely
-AKHIL.© Akhil Chelat. Designed & built with care.BACK TO TOP ↑
+    <section class="contact-section" id="contact">
+      <div class="section contact-inner">
+        <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+        <h2>Let's build something<br><em>that works.</em></h2>
+        <p>Have a backend requirement, an application idea or a project to discuss? I'd be glad to hear about it.</p>
+        <a class="button button-primary" id="contactButton" href="mailto:">Start a conversation <span>↗</span></a>
+        <div class="contact-links"><a id="linkedinLink" href="#contact">LinkedIn ↗</a><a id="githubLink" href="#contact">GitHub ↗</a><span>India · Available remotely</span></div>
+      </div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#home">AKHIL<span>.</span></a><span>© <span id="year"></span> Akhil Chelat. Designed & built with care.</span><a href="#home">BACK TO TOP ↑</a></footer>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
